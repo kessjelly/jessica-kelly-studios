@@ -1,8 +1,20 @@
   @font-face {
-      font-family: 'MyCustomFont';
+      font-family: 'Title';
       src: url('../fonts/BauhausMioxDisplay-ExtraBold.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  } 
+    @font-face {
+      font-family: 'Normal';
+      src: url('../fonts/BauhausMioxDisplay-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
     }
 
     h1 {
-        font-family: 'MyCustomFont', sans-serif;
+        font-family: 'Title', sans-serif;
+    }
+    
+    p {
+        font-family: 'Normal', sans-serif;
     }
