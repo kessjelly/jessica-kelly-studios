@@ -11,10 +11,29 @@
   font-style: normal;
 }
 
-nav {
-  background-color: #0000ff;
-  padding: 10px 0;
+.navbar {
+  padding: 5px 0;
   font-family: "Normal", sans-serif;
+  font-size: 18px;
+  background-color: #0000ff !important;
+}
+
+.navbar .nav-link {
+  color: #fff5de !important;
+  margin-right: 15px;
+}
+
+.navbar .nav-link:hover {
+  color: #ffff99;
+}
+
+.navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.navbar img {
+  height: 50px;
+  width: auto;
 }
 
 h1 {
@@ -61,4 +80,33 @@ footer {
   color: #0000ff;
   text-decoration: none;
   transition: all 0.3s ease;
+}
+
+footer i {
+  color: #0000ff;
+  font-size: 24px;
+  margin: 10px 10px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 600px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .btn-hero {
+    margin-bottom: 20px auto;
+  }
+
+  footer {
+    margin-top: 0 0;
+  }
 }
