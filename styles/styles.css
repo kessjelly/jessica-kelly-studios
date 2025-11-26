@@ -99,14 +99,30 @@ footer {
   color: #fe9f9e;
   margin: 0 auto;
   background-color: #2f2b2c;
-  height: 900px;
+
+}
+
+.portfolio-container {
+  margin: 0 auto;
+  background-color: #2f2b2c;
+}
+
+.portfolio-container .row {
+  display: flex;
+  gap: 10px;
+}
+
+.portfolio-container img {
+  border-radius: 15px;
+  width: 500px;
+  height: 200px;
 }
 
 .btn-portfolio {
   font-family: "Normal", sans-serif;
   font-size: 18px;
   color: #fe9f9e;
-  background-color:#2f2b2c;
+  background-color: #2f2b2c;
   border-color: #fe9f9e;
   padding: 15px 30px;
   text-decoration: none;
