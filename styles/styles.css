@@ -99,25 +99,19 @@ footer {
   color: #fe9f9e;
   margin: 0 auto;
   background-color: #2f2b2c;
-
 }
 
-.portfolio-container {
-  margin: 0 auto;
-  background-color: #2f2b2c;
-}
-
-.portfolio-container .row {
-  display: flex;
-  gap: 10px;
-}
-
-.portfolio-container img {
+.portfolio-img {
+  width: 100%;
+  height: 200px; /* same height for uniformity */
+  object-fit: cover; /* prevents stretching */
   border-radius: 15px;
-  width: 500px;
-  height: 200px;
+  transition: transform 0.3s ease;
 }
 
+.portfolio-img:hover {
+  transform: translateY(-10px);
+}
 .btn-portfolio {
   font-family: "Normal", sans-serif;
   font-size: 18px;
@@ -156,6 +150,17 @@ footer i {
   .btn-hero {
     font-size: 16px;
     padding: 10px 20px;
+  }
+
+  .portfolio-grid img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .portfolio-grid .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   footer i {
