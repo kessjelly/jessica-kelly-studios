@@ -57,6 +57,14 @@
   color: #e30673 !important;
 }
 
+.nav-contact {
+  background-color: #17b735 !important;
+}
+
+.nav-contact .nav-links {
+  color: white !important;
+}
+
 h1 {
   font-family: "Title", sans-serif;
 }
@@ -181,6 +189,31 @@ h2 {
 .btn-contact:hover {
   color: #ed85c2;
   background-color: #e30673;
+}
+
+.contact {
+  background-color: #17b735;
+}
+
+.contact h1 {
+  color: white;
+  font-size: 72px;
+  margin-top: 100px;
+}
+
+.contact-links h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.contact-links h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0000ff;
+}
+
+.contact-links a {
+  text-decoration: none;
 }
 
 footer {
