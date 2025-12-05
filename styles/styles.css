@@ -116,6 +116,7 @@ h2 {
 .portfolio-img:hover {
   transform: translateY(-10px);
 }
+
 .btn-portfolio {
   font-family: "Normal", sans-serif;
   font-size: 18px;
@@ -125,6 +126,61 @@ h2 {
   padding: 15px 30px;
   text-decoration: none;
   border-radius: 50px;
+}
+
+.about-hero {
+  background-color: #ed85c2;
+}
+
+.about-hero h1 {
+  color: #e30673;
+  font-size: 64px;
+}
+
+.about-hero h2 {
+  color: #0000ff;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.about-hero p {
+  color: white;
+  font-size: 18px;
+}
+
+.about-links a {
+  color: #e30673;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.about-image {
+  height: 550px;
+  width: 450px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.certificate img {
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.certificate a {
+  text-decoration: none;
+}
+
+.btn-contact {
+  color: #e30673;
+  border-color: #e30673;
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px #554f51;
+}
+
+.btn-contact:hover {
+  color: #ed85c2;
+  background-color: #e30673;
 }
 
 footer {
